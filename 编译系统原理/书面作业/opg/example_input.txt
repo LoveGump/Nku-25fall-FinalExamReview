@@ -1,0 +1,6 @@
+S -> M | U
+M -> i E t M e M | o
+U -> i E t S | i E t M e U
+E -> v
+%%
+i v t i v t o e o
